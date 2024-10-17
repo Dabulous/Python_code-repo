@@ -37,5 +37,5 @@ def calculate_numbers():
     print(f"Quotient: {first_number} / {second_number} = {quotient_result}")  # Display the quotient result
     
 
-#This is the function which is used to call the calculate_numbers function
+#This is used to call the calculate_numbers function
 calculate_numbers()

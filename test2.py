@@ -10,6 +10,39 @@ players = ['charles', 'martina', 'michael', 'florence', 'eli']
 # Print the first three players in the list
 print(players[0:3])
 
+# Print the first player in the list
+print(players[0])
+
+# Print the last player in the list
+print(players[-1])
+
+#Print the second to last player in the list
+print(players[-2])
+
+# Print the player not in the list
+#print(players[6])
+
+
+#Loop through the list of players and print each player's name in a sentence        
+for player in players:  
+    print("Hello, " + player.title() + "!")
+
+# Loop through the list of players and print each player's name and position in a sentence
+    for position, player in enumerate(players):
+        print(f"Player Name: {player}, You are in Position: {position}")
+
+# Generate while loop to loop through the list of players and print each player's name in a sentence
+player = 0
+while player < len(players):
+    print("Hello, " + players[player].title() + "!")
+    player += 1 
+
+#Generate while loop to lopp through a number 10 times and print each number
+number = 0
+while number < 10:
+    print(number)
+    number += 1
+
 # Print the next three players in the list (offset by 1)
 print(players[1:4])
 
@@ -18,6 +51,10 @@ print(players[2:5])
 
 # Print the entire list of players
 print(players)
+
+#Print length of the list and put it in a sentence
+print(len(players))
+print("There are " + str(len(players)) + " players in the list")
 
 # Define the first and last names of a person
 first_name = "John"

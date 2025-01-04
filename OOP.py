@@ -49,8 +49,6 @@ Item.all_items.append(item3)
 Item.all_items.append(item4)
 Item.all_items.append(item5)
 
-#Print list of items
-#print(Item.all_items)
 
 #Loop through the list of items and print the total price
 for item in Item.all_items:
